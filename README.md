@@ -3,8 +3,8 @@ Hauptserver
 --> an dem orientieren https://github.com/IvanMurzak/WordPress-VPS/blob/main/README.md
 
 1. Baumstruktur
-3. Hauptsystem (VPS)
-4. VPS hardening (HTB Setup)
+2. Hauptsystem (VPS)
+3. VPS SSH SSHD hardening (HTB Setup)
 5. Docker & Docker-compose
 6. Nginx Container
 7. WireGuard Container
@@ -32,7 +32,7 @@ Hauptserver
        SSL!
        CLOUD
 
-2. HAUPTSYSTEM
+2. HAUPTSYSTEM & SSH hardening
    ssh als root@IP-VPS
    apt update && upgrade -y
    adduser k0n1g
@@ -64,8 +64,7 @@ Hauptserver
          AuthenticationMethods publickey,keyboard-interactive
             DAS HIER HAUT IRGENDWIE NICHT HIN!
          PasswordAuthentication no
-   
-
-
-
-    
+3. DOCKER & DOCKER-COMPOSE
+   AAAAAAAAA
+   2
+   3h
