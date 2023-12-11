@@ -63,8 +63,9 @@ Hauptserver
       unten hinzufuegen ->
          AuthenticationMethods publickey,keyboard-interactive
             DAS HIER HAUT IRGENDWIE NICHT HIN!
+               Auf JEDEN FALL!!! einfach sehr genau lesen, verstehen und entsprechend einrichten
          PasswordAuthentication no
-3. DOCKER & DOCKER-COMPOSE
+4. DOCKER & DOCKER-COMPOSE
    AAAAAAAAA
    2
    3h
