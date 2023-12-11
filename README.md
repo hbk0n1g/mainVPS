@@ -5,18 +5,18 @@ Hauptserver
 1. Baumstruktur
 2. Hauptsystem (VPS)
 3. VPS SSH SSHD hardening (HTB Setup)
-5. Docker & Docker-compose
-6. Nginx Container
-7. WireGuard Container
-8. Ggf. Shadowsockets
-9. C2 installieren (Port und DNS zuordnen!)
-10. WordPress Container
-11. Datenbanken (redis oder mysql?)
-12. SSL
-13. Cloud *anbieter raussuchen
-14. Ggf. Kubernetes
-15. Ggf. RTB Webspace/ -Site
-16. FIREWALL EINSTELLEN
+4. Docker & Docker-compose
+5. Nginx Container
+6. WireGuard Container
+7. Ggf. Shadowsockets
+8. C2 installieren (Port und DNS zuordnen!)
+9. WordPress Container
+10. Datenbanken (redis oder mysql?)
+11. SSL
+12. Cloud *anbieter raussuchen
+13. Ggf. Kubernetes
+14. Ggf. RTB Webspace/ -Site
+15. FIREWALL EINSTELLEN
 
 
 1. BAUMSTRUKTUR
@@ -32,12 +32,13 @@ Hauptserver
        SSL!
        CLOUD
 
-2. HAUPTSYSTEM & SSH hardening
+2. HAUPTSYSTEM
    ssh als root@IP-VPS
    apt update && upgrade -y
    adduser k0n1g
    usermod -aG sudo k0n1g
    su - k0n1g
+3. SSH hardening
    sudo apt update -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y
    sudo apt install fail2ban -y
    sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.conf.bak
@@ -66,6 +67,6 @@ Hauptserver
                Auf JEDEN FALL!!! einfach sehr genau lesen, verstehen und entsprechend einrichten
          PasswordAuthentication no
 4. DOCKER & DOCKER-COMPOSE
-   AAAAAAAAA
-   2
-   3h
+   Hier einfach die offizielle Doku lesen, mega ez, wenn man sich dabei kein video rein zieht...
+5.
+
