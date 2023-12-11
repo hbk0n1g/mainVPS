@@ -10,13 +10,14 @@ Hauptserver
 6. Nginx Container
 7. WireGuard Container
 8. Ggf. Shadowsockets
-9. WordPress Container
-10. Datenbanken (redis oder mysql?)
-11. SSL
-12. Cloud *anbieter raussuchen
-13. Ggf. Kubernetes
-14. Ggf. RTB Webspace/ -Site
-15. FIREWALL EINSTELLEN
+9. C2 installieren (Port und DNS zuordnen!)
+10. WordPress Container
+11. Datenbanken (redis oder mysql?)
+12. SSL
+13. Cloud *anbieter raussuchen
+14. Ggf. Kubernetes
+15. Ggf. RTB Webspace/ -Site
+16. FIREWALL EINSTELLEN
 
 
 1. BAUMSTRUKTUR
@@ -26,6 +27,7 @@ Hauptserver
      -juras.club
        -NGINX Container (mit WP abstimmen)
        -WireGuard Container (51821)
+       -C2
        -WordPress Container (mit nginx abstimmen)
        -DB Container *ggf. mehrere, versch. Funktion
        -SSL!
